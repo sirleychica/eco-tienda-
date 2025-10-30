@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+:root{--color-principal:#6a946b;--color-sec:#d6e766;--bg:#b6ebbb;--text:#333;--white:#fff}
+
+body{font-family:'Poppins',sans-serif;background:var(--bg);color:var(--text);margin:0;}
+
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+
+.header{background:var(--white);border-bottom:2px solid var(--color-principal);position:sticky;top:0;z-index:10}
+
+.nav-flex{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:0.8rem}
+
+.logo-area{display:flex;align-items:center;text-decoration:none;color:var(--text);font-weight:700}
+
+.logo-area img{width: 65px;px;margin-right:0.6rem;border-radius:8px}
+
+.navbar ul{display:flex;gap:1.2rem;list-style:none;margin:0;padding:0}
+
+.btn-ghost{background:none;border:2px solid var(--color-principal);color:var(--color-principal);padding:6px 12px;border-radius:6px;cursor:pointer}
+
+.intro-section{background-image:url('https://source.unsplash.com/1600x900/?eco,green');background-size:cover;background-position:center;color:#fff;padding:4rem 1rem;text-align:center}
+
+.intro-text{background:rgba(154, 195, 236, 0.45);display:inline-block;padding:2rem;border-radius:12px}
+
+.btn-primary{background:var(--color-principal);color:var(--white);padding:10px 18px;border-radius:8px;text-decoration:none;margin-right:8px}
+
+.btn-secondary{border:2px solid var(--white);color:var(--white);padding:10px 18px;border-radius:8px;text-decoration:none}
+
+.benefit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1.5rem}
+
+.benefit-card{background:var(--white);padding:1.2rem;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,0.06)}
+
+.products{padding:2rem 1rem;background:var(--white)}
+
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+
+.product-card{background:var(--bg);padding:1rem;border-radius:8px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+
+.product-card img{width:100%;height:180px;object-fit:cover;border-radius:8px}
+
+.footer{background:var(--sec);color:rgb(185, 144, 144);text-align:center;padding:1rem;margin-top:2rem}
